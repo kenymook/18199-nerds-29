@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Aslan Kautarov](https://up.htmlacademy.ru/htmlcss/29/user/18199).
-* Наставник: `Неизвестно`.
+* Наставник: [Артур Трифонов](https://htmlacademy.ru/profile/wrgraff).
 
 ---
 
