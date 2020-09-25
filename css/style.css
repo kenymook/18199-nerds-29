@@ -1,0 +1,280 @@
+/* variables */
+
+
+:root {
+    --basic-black: #000000;
+    --basic-grey: #666666;
+    --basic-white: #ffffff;
+    --basic-dark: #283136;
+    --special: #FB565A;
+}
+
+/* Global */
+
+body {
+    min-width: 940px;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--basic-black);
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* main-navigation */
+
+.main-navigation {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    background-color: transparent;
+}
+
+.site-navigation {
+    list-style: none;
+}
+
+/* user navigation */
+
+.site-navigation a,
+.user-navigation a {
+    color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+    color: #FB565A;
+}
+
+.site-navigation a:active {
+    color: #000000;
+    opacity: 0.3;
+}
+
+
+/* Features */
+
+.features-list {
+    list-style: none;
+}
+.feature-item {
+    text-align: left;
+}
+
+.feature-item h3 {
+    font-size: 55px;
+    line-height: 55px;
+}
+
+.button-features {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500; 
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-color: #FB565A;
+    border-radius: 3px;
+}
+
+.button-features:hover,
+.button-features:focus {
+    background-color: #E74246;
+}
+
+.button-features:active {
+    background-color: #D7373B;
+}
+
+
+
+
+/* Button */
+
+.service-site,
+.services-app,
+.services-pres {
+    font-size: 16px;
+    line-height: 18px;
+    font: normal;
+    text-align: center;
+    color: var(--basic-white);
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+.service-site {
+    background-color: #FB565A;
+}
+
+.service-site:hover,
+.service-site:focus {
+    background-color: #E74246;
+}
+
+.service-site:active {
+    background-color: #D7373B;
+}
+
+.services-app {
+    background-color: #00CA74;
+}
+
+.services-app:hover,
+.services-app:focus {
+    background-color: #00BC6C;
+}
+
+.services-app:active {
+    background-color: #00AA62;
+    }
+
+.services-pres {
+    background-color: #EFC84A;
+}
+
+.services-pres:hover,
+.services-pres:focus {
+    background-color:#EAB534;
+}
+
+.services-pres:active {
+    background-color: #E5A722;
+    }
+
+/* Services */
+
+.services-list {
+    list-style: none;
+}
+
+.services-item {
+    text-align: left;
+}
+
+.services-item h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+/* Info */
+
+.info-title {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.info-head {
+    font-size: 16px;
+    line-height: 24px;
+    color: #283136;
+}
+
+.info-order {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.info-advantages {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.info-advantages-list {
+    list-style: none;
+}
+
+.info-advantages-procents {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 64px;
+}
+
+/* Links */
+
+.links-list {
+    list-style: none;
+}
+
+.links-item {
+    opacity: 0.2;
+}
+
+.links-item a:active {
+    opacity: 0.1;
+}
+
+/* Contacts */
+
+.footer-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.button-contacts {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: var(--basic-white);
+    text-transform: uppercase;
+    border-radius: 3px;
+    background-color: #FB565A;
+}
+
+.footer-contacts-info {
+    color: #666666;
+}
+.footer-phone {
+    color: #666666;
+}
+
+/* Social */
+
+.social-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.social-text {
+    font-size: 16px;
+    line-height: 22px;
+    color: #444444;
+}
+
+.social-button {
+    color: var(--basic-white);
+    background-color: #e1e1e1;
+    border-radius: 3px;
+}
+
+.social-button:hover,
+.social-button:focus {
+    background-color: #E74246;
+}
+
+.social-button:active {
+    background-color: #D7373B;
+}
