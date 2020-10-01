@@ -7,6 +7,9 @@
     --basic-white: #ffffff;
     --basic-dark: #283136;
     --dark-grey: #444444;
+    --neutral-grey: #d5d5d5;
+    --light-grey: #eeeeee;
+    --lighter-grey: #dfdfdf;
     --special: #FB565A;
     --special-g: #00CA74;
     --special-y:  #EFC84A;
@@ -78,6 +81,10 @@ img {
     opacity: 0.3;
 }
 
+.login-link:active {
+    color: var(--basic-black);
+    opacity: 0.3;
+}
 
 /* Features */
 
@@ -233,6 +240,131 @@ img {
 .links-item a:active {
     opacity: 0.1;
 }
+
+/* Inner--page */
+.inner-page {
+    color: var(--basic-black);
+    background-color: var(--basic-white);
+}
+
+.page-title {
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 500;
+}
+
+/* Sort */
+
+.sort-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.sort-list {
+    list-style: none;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.sort a {
+    color: var(--basic-black);
+    opacity: 0.3;
+}
+
+.sort a:hover,
+.sort a:focus {
+    text-decoration: underline;
+    opacity: 0.6;
+}
+
+.sort a:active {
+    opacity: 1;
+}
+
+
+/* Product */
+
+.products a {
+    color: var(--basic-black);
+}
+
+.products-list {
+    list-style: none;
+}
+
+.product-item {    
+    border-radius: 0 0 5px 5px;
+}
+
+.product-button {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.product-item-title {
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.product-item-price {
+    color: var(--basic-white);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background-color: var(--special);
+}
+
+.product-item-price:hover,
+.product-item-price:focus {
+    background-color: var(--button-hover-r);
+}
+
+.product-item-price:active {
+    background-color: var(--button-active-r);
+}
+
+/* Pagination */
+
+.pagination-list {
+    list-style: none;
+}
+
+.pagination-item a {
+    color: var(--basic-black);
+    background-color: var(--light-grey);
+    border-radius: 3px;
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus {
+    background-color: var(--lighter-grey);
+}
+
+.pagination-item a:active {
+  background-color: var(--neutral-grey);
+  box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+}
+
+.pagination-item-current a,
+.pagination-item-current a:hover,
+.pagination-item-current a:focus,
+.pagination-item-current a:active {
+  color: var(--basic-black);
+  background-color: rgba(0, 0, 0, 0.0001);
+  border: 3px solid #DBDBDB;
+  box-sizing: border-box;
+}
+
+
+
 
 /* Contacts */
 
