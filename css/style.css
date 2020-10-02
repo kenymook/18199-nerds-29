@@ -242,10 +242,6 @@ img {
 }
 
 /* Inner--page */
-.inner-page {
-    color: var(--basic-black);
-    background-color: var(--basic-white);
-}
 
 .page-title {
     font-size: 55px;
@@ -259,6 +255,7 @@ img {
     font-weight: 700;
     font-size: 18px;
     line-height: 30px;
+    text-transform: uppercase;
 }
 
 .sort-list {
@@ -268,18 +265,18 @@ img {
     text-transform: uppercase;
 }
 
-.sort a {
+.sort-item {
     color: var(--basic-black);
     opacity: 0.3;
 }
 
-.sort a:hover,
-.sort a:focus {
+.sort-item:hover,
+.sort-item:focus {
     text-decoration: underline;
     opacity: 0.6;
 }
 
-.sort a:active {
+.sort-item:active {
     opacity: 1;
 }
 
