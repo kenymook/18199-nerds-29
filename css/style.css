@@ -237,6 +237,11 @@ img {
     opacity: 0.2;
 }
 
+.links-item:hover,
+.links-item:focus {
+    opacity: 1;
+}
+
 .links-item a:active {
     opacity: 0.1;
 }
