@@ -45,9 +45,23 @@ img {
     height: auto;
 }
 
+/* Grid */
+
+.page {
+    height: 100%;
+}
+
+.page-body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    align-content: start;
+}
+
 /* main-navigation */
 
 .main-navigation {
+    display: grid;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -55,9 +69,32 @@ img {
     color: var(--basic-black);
 }
 
+.main-header-bar {
+    background-color: var(--light-grey);    
+}
+
+.main-navigation-wrapper {
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    width: 1160px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
 .site-navigation {
+    margin: 0%;
+    padding: 0%;
     list-style: none;
 }
+
+/* Container */
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
 
 /* user navigation */
 
@@ -177,7 +214,16 @@ img {
 
 /* Services */
 
+.services {
+    margin-bottom: 80px;
+}
+
 .services-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 100px;
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
@@ -192,6 +238,13 @@ img {
 }
 
 /* Info */
+
+.info-columns {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 140px;
+    margin-bottom: 73px;
+}
 
 .info-title {
     font-weight: 500;
@@ -218,6 +271,9 @@ img {
 }
 
 .info-advantages-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
     list-style: none;
 }
 
@@ -230,6 +286,9 @@ img {
 /* Links */
 
 .links-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 60px;
     list-style: none;
 }
 
@@ -370,7 +429,13 @@ img {
 
 /* Contacts */
 
-.footer-title {
+.contacts {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.contacts-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 30px;
@@ -387,7 +452,7 @@ img {
     background-color: var(--special);
 }
 
-.footer-contacts-info {
+.contacts-info {
     color: var(--basic-grey);
 }
 .footer-phone {
@@ -395,6 +460,27 @@ img {
 }
 
 /* Social */
+
+.main-footer {
+    padding: 60px 0;
+    margin-top: 80px;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+}
+
+.social-1 {
+    margin: 0;
+    width: 260px;
+}
+
+.social-2 {
+    margin: 0;
+    padding-left: 140px;
+    width: 560px;
+}
 
 .social-title {
     font-weight: 700;
