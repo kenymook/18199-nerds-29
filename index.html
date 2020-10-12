@@ -13,7 +13,6 @@
             <a class="main-header-logo" href="index.html">
               <img src="img/logo-nerds.png" width="159" height="65" alt="логотип Нёрдс">
             </a>
-            <div class="main-navigation-wrapper">
             <ul class="site-navigation">
               <li><a href="blank.html">Студия</a></li>
               <li><a href="blank.html">Клиенты</a></li>
@@ -21,16 +20,15 @@
               <li><a href="blank.html">контакты</a></li>
             </ul>
             <a class="login-link" href="blank.html">Корзина</a>
-          </div>
           </nav>
         </header>
     
-        <main class="container">
+        <main>
           
-          <h1>Нёрдс</h1>
+          <h1 class="visually-hidden">Нёрдс</h1>
           <section class="features">
-            <ul class="features-list">
-                <li class="features-item">
+            <ul class="features-list container">
+                <li class="features-item features-item-active">
                   <p class="features-title">Долго, дорого,<br>
                   скрупулезно</p>
                   <p>Математический выверенный дизайн<br>
@@ -56,7 +54,7 @@
               <button class="button-features" type="button"></button>
               <button class="button-features" type="button"></button>
           </section>
-          <section class="services">
+          <section class="services container">
             <ul class="services-list">
               <li class="services-item">
                 <img src="img/services-pic1.png" width="300" height="146" alt="Order-1">                 
@@ -79,8 +77,8 @@
              <ul>
           </section>
 
-          <div class="info-columns">
-          <section class="info">                    
+          <section class="info-columns container">
+          <div class="info">                    
                 <p class="info-title">Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
                   <p class="info-head">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
                   <p class="info-order">Выполняем заказы на разработку:</p>
@@ -89,9 +87,9 @@
                     <li class="info-item">Мобильных приложений для iOS и Android</li>
                     <li class="info-item">Слайдшоу и видео для корпоративных презентаций</li>
                   </ul>
-                </section>
+          </div>
 
-                <section class="info-1">
+                <div class="info-1">
               <img src="img/info-illustration.png" width="360" height="208" alt="Преимущества">
               <p class="info-advantages">С 2004 ГОДА ЛЮБИМ ТОЧНОСТЬ ВО ВСЕМ:</p>
                 <ul class="info-advantages-list">
@@ -99,10 +97,10 @@
                     <li class="info-advantages-item"><p>100%</p> Соблюдение сроков</li> 
                     <li class="info-advantages-item"><p>50%</p> Минимальная предоплата</li>
                 </ul>                 
-          </section>
-        </div>
+              </div>
+                </section>
 
-          <section class="links">
+          <section class="links container">
             <ul class="links-list">
               <li class="links-item">
                 <a href="#"><img src="img/logo-html.png" width="199" height="68" alt="html.academy"></a></li>
@@ -117,17 +115,21 @@
           </section>
         </main>
 
-        <div class="contacts">
-            <img src="img/navigation-map.png" width="1440" height="416" alt="Карта местоположения">
-            <p class="contacts-title">NЁRDS DESIGN STUDIO</p>
+        
+        <footer class="page-footer main-footer">
+          
+          <div class="contacts">
+            <img class="nav-map" src="img/navigation-map.png" width="1440" height="416" alt="Карта местоположения">
+            <div class="footer-inner">
+              <p class="contacts-title">NЁRDS DESIGN STUDIO</p>
             <p class="contacts-info">191186, Санкт-Петербург,<br> 
             ул. Б. Конюшенная, д.19/8</p>
             <p class="contacts-info">тел. <a class="footer-phone" href="tel:+78122757575">+7 (812) 275-75-75</a>
             </p>
             <a class="button-contacts" href="blank.html">Напишите нам</a>
+          </div>
         </div>
 
-        <footer class="page-footer main-footer">
            <div class="social">
             <div class="social-media">
               <a class="social-button" href="#">VKontakte</a>
