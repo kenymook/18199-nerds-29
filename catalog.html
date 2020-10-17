@@ -14,7 +14,6 @@
           <a class="main-header-logo" href="index.html">
             <img src="img/logo-nerds.png" width="159" height="65" alt="логотип Нёрдс">
           </a>
-          <div class="main-navigation-wrapper">
           <ul class="site-navigation">
             <li><a href="blank.html">Студия</a></li>
             <li><a href="blank.html">Клиенты</a></li>
@@ -22,15 +21,14 @@
             <li><a href="blank.html">контакты</a></li>
           </ul>
           <a class="login-link" href="blank.html">Корзина</a>
-        </div>
         </nav>
       </header>
 
     <main class="page-catalog container">
         <h1 class="page-title">Магазин готовых шаблонов</h1>
-
-        <section>
-            <h2 class="filters">Фильтр шаблонов</h2>
+        <div class="catalog-items">
+        <section class="filters">
+            <h2>Фильтр шаблонов</h2>
 
         </section>
 
@@ -53,49 +51,61 @@
                     <a class="product-item-pic" href="#">
                         <img src="img/maket-sedona.png" width="360" height="576" alt="SEDONA">
                     </a>
+                    <div class="product-item-inner">
                     <a class="product-button" href="#">SEDONA</a>
                     <p class="product-item-title">Информационный сайт для туристов</p>
                     <a class="product-item-price" href="#">9900</a>
+                </div>
                 </li>
                 <li class="product-item">
                     <a class="product-item-pic" href="#">
                         <img src="img/maket-pink.png" width="358" height="576" alt="PINK">
                     </a>
+                    <div class="product-item-inner">
                     <a class="product-button" href="#">PINK</a>
                     <p class="product-item-title">Продуктовый лендинг приложения для iOS и Android</p>
                     <a class="product-item-price" href="#">9900</a>
+                </div>
                 </li>
                 <li class="product-item">
                     <a class="product-item-pic" href="#">
                         <img src="img/maket-barbershop.png" width="364" height="582" alt="BARBERSHOP">
                     </a>
+                    <div class="product-item-inner">
                     <a class="product-button" href="#">BARBERSHOP</a>
                     <p class="product-item-title">Сайт салона красоты. Для мужчин, да.</p>
                     <a class="product-item-price" href="#">9900</a>
+                </div>
                 </li>
                 <li class="product-item">
                     <a class="product-item-pic" href="#">
                         <img src="img/maket-mishka.png" width="362" height="580" alt="MISHKA">
                     </a>
+                    <div class="product-item-inner">
                     <a class="product-button" href="#">MISHKA</a>
                     <p class="product-item-title">Интернет-магазин вязанных игрушек</p>
                     <a class="product-item-price" href="#">9900</a>
+                </div>
                 </li>
                 <li class="product-item">
                     <a class="product-item-pic" href="#">
                         <img src="img/mask-aplus.png" width="364" height="582" alt="APLUS">
                     </a>
+                    <div class="product-item-inner">
                     <a class="product-button" href="#">APLUS</a>
                     <p class="product-item-title">Лендинг курсов повышения квалификации</p>
                     <a class="product-item-price" href="#">9900</a>
+                </div>
                 </li>
                 <li class="product-item">
                     <a class="product-item-pic" href="#">
                         <img src="img/mask-kvast.png" width="362" height="580" alt="KVAST">
                     </a>
+                    <div class="product-item-inner">
                     <a class="product-button" href="#">КВАСТ</a>
                     <p class="product-item-title">Промо-сайт производителя крафтого кваса</p>
                     <a class="product-item-price" href="#">9900</a>
+                </div>
                 </li>
             </ul>
 
@@ -114,31 +124,39 @@
                 </li>
             </ul>
         </section>
+    </div>
     </main>
 
 
 
 
     <footer class="page-footer main-footer">
-        <section class="footer-contacts">
-          <img src="img/navigation-map.png" width="1440" height="416" alt="Карта местоположения">
-          <p class="footer-title">NЁRDS DESIGN STUDIO</p>
-          <p class="footer-contacts-info">191186, Санкт-Петербург,<br> 
-          ул. Б. Конюшенная, д.19/8</p>
-          <p class="footer-contacts-info">тел. <a class="footer-phone" href="tel:+78122757575">+7 (812) 275-75-75</a>
-        </p>
-        <a class="button-contacts" href="blank.html">Напишите нам</a>
-        </section>
+          
+          <div class="contacts">
+            <img class="nav-map" src="img/navigation-map.png" width="1440" height="416" alt="Карта местоположения">
+            <div class="footer-inner">
+              <p class="contacts-title">NЁRDS DESIGN STUDIO</p>
+            <p class="contacts-info">191186, Санкт-Петербург,<br> 
+            ул. Б. Конюшенная, д.19/8</p>
+            <p class="contacts-info">тел. <a class="footer-phone" href="tel:+78122757575">+7 (812) 275-75-75</a>
+            </p>
+            <a class="button-contacts" href="blank.html">Напишите нам</a>
+          </div>
+        </div>
 
-        <section class="social">
-          <a class="social-button" href="#">VKontakte</a>
-          <a class="social-button" href="#">Facebook</a>
-          <a class="social-button" href="#">Instagram</a>
-          <p class="social-title">Давайте дружить, это выгодно!</p>
-          <p class="social-text">Скидка 10% для друзей из социальных сетей.</p>
-        </section>
+           <div class="social">
+            <div class="social-media">
+              <a class="social-button" href="#">VKontakte</a>
+              <a class="social-button" href="#">Facebook</a>
+              <a class="social-button" href="#">Instagram</a>
+            </div>
+            <div class="social-head">
+              <p class="social-title">Давайте дружить, это выгодно!</p>
+              <p class="social-text">Скидка 10% для друзей из социальных сетей.</p>
+            </div>
+          </div>
 
-    </footer>
+        </footer>
 
 
 

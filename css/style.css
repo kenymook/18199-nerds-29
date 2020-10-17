@@ -71,6 +71,15 @@ img {
     align-content: start;
 }
 
+.catalog-items {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+}
+
+.filters {
+    grid-row: span 2;
+}
+
 /* main-navigation */
 
 .main-header {
@@ -104,7 +113,7 @@ img {
 .container {
     width: 1160px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0;
 }
 
 
@@ -138,6 +147,7 @@ img {
 /* Features */
 
 .features {
+    position: relative;
     background-color: var(--light-grey);
 }
 
@@ -150,14 +160,24 @@ img {
 }
 
 .features-item-active {
-    display: block;
+    display: grid;
+    grid-template-columns: 400px 1fr;
 }
 
 .button-features {
+    display: block;
+    width: 240px;
     font-size: 16px;
-    line-height: 18px;
+    line-height: 38px;
     font-weight: 500; 
     text-align: center;
+    color: var(--basic-white);
+    text-transform: uppercase;
+    background-color: var(--special);
+    border-radius: 3px;
+}
+
+.button-slider {
     color: var(--basic-white);
     text-transform: uppercase;
     background-color: var(--special);
@@ -173,6 +193,14 @@ img {
     background-color: var(--button-active-r);
 }
 
+
+.slider-buttons {    
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    bottom: 96px;
+}
+
 .features-title {
     font-weight: 500;
     font-size: 55px;
@@ -184,9 +212,11 @@ img {
 .service-site,
 .services-app,
 .services-pres {
+    display: block;
+    width: 160px;
     font-size: 16px;
-    line-height: 18px;
-    font: normal;
+    line-height: 38px;
+    font-weight: 500;
     text-align: center;
     color: var(--basic-white);
     text-transform: uppercase;
@@ -235,7 +265,7 @@ img {
 /* Services */
 
 .services {
-    padding-top: 60px;
+    padding-top: 80px;
     margin-bottom: 80px;
 }
 
@@ -263,9 +293,10 @@ img {
 
 .info-columns {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 360px;
     column-gap: 140px;
-    margin-bottom: 73px;
+    padding-top: 39px;
+    padding-bottom: 73px;
 }
 
 .info-title {
@@ -311,7 +342,6 @@ img {
 .links-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-bottom: 60px;
     list-style: none;
     padding: 0;
 }
@@ -339,6 +369,10 @@ img {
 
 /* Sort */
 
+.sort {
+    display: flex;
+}
+
 .sort-title {
     font-weight: 700;
     font-size: 18px;
@@ -347,6 +381,8 @@ img {
 }
 
 .sort-list {
+    display: flex;
+    column-gap: 25px;
     list-style: none;
     font-size: 14px;
     line-height: 18px;
@@ -371,16 +407,37 @@ img {
 
 /* Product */
 
+.products-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .products a {
     color: var(--basic-black);
 }
 
 .products-list {
     list-style: none;
+    padding: 0;
 }
 
 .product-item {    
     border-radius: 0 0 5px 5px;
+    margin-bottom: 30px;
+    width: 360px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+
+.product-item-inner {
+    text-align: center;
+    position: absolute;
+    padding-top: 26px;
+    height: 216px;
+    width: 360px;
+    top: 349px;
+    background-color: var(--light-grey);
 }
 
 .product-button {
@@ -394,6 +451,7 @@ img {
     font-size: 16px;
     line-height: 18px;
     text-align: center;
+    margin-bottom: 32px;
 }
 
 .product-item-price {
@@ -404,6 +462,7 @@ img {
     text-align: center;
     text-transform: uppercase;
     border-radius: 3px;
+    padding: 15px 72px 17px;
     background-color: var(--special);
 }
 
@@ -419,6 +478,8 @@ img {
 /* Pagination */
 
 .pagination-list {
+    display: flex;
+    column-gap: 11px;
     list-style: none;
 }
 
@@ -472,15 +533,17 @@ img {
 }
 
 .button-contacts {
+    display: block;
+    width: 219px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 18px;
+    line-height: 38px;
     text-align: center;
     color: var(--basic-white);
     text-transform: uppercase;
     border-radius: 3px;
     background-color: var(--special);
-    min-width: 219px;
+    margin-left: 50px;
 }
 
 .contacts-info {
@@ -505,7 +568,6 @@ img {
 /* Social */
 
 .main-footer {
-    padding: 60px 0;
     margin-top: 80px;
 }
 
@@ -520,6 +582,7 @@ img {
 .social-media {
     margin: 0;
     padding-top: 68px;
+    padding-bottom: 68px;
     width: 260px;
 }
 
@@ -527,6 +590,7 @@ img {
     margin: 0;
     padding-left: 140px;
     padding-top: 75px;
+    padding-bottom: 74px;
     width: 560px;
 }
 
