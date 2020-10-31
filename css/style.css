@@ -83,32 +83,38 @@ img {
 /* main-navigation */
 
 .main-header {
-    padding-top: 29px;
+    padding-top: 49px;
     background-color: var(--light-grey);
 }
 
 .main-navigation {
-    display: grid;
-    grid-template-columns: 159px 1fr min-content;
-    width: 1160px;
-    margin: 0 auto;
-    padding: 0 10px;
-    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
-    color: var(--basic-black); 
+    color: var(--basic-black);
+    text-transform: uppercase; 
 }
 
 
 
 .site-navigation { 
     display: flex;
+    align-items: center;
     margin: 0;
-    padding: 10px;
+    padding-left: 25px;
     list-style: none;
 }
 
+.site-navigation li {
+    padding-right: 45px;
+}
+
+.site-navigation:nth-child(4n) {
+    padding-right: 0;
+}
 
 /* Container */
 
@@ -127,6 +133,7 @@ img {
 
 .login-link {
     color: var(--basic-black);
+    padding-left: 50px;
 }
 
 .site-navigation a:hover,
@@ -170,7 +177,7 @@ img {
     display: inline-block;
     min-width: 240px;
     margin: 0;
-    padding: 17px 54px 15px;
+    padding: 6px 0 6px;
     font-size: 16px;
     line-height: 38px;
     font-weight: 500; 
@@ -210,6 +217,12 @@ img {
     font-weight: 500;
     font-size: 55px;
     line-height: 55px;
+    margin-bottom: 25px;
+    margin-top: 78px;
+}
+
+.features-text {
+    margin-bottom: 38px;
 }
 
 /* Button */
@@ -314,6 +327,10 @@ img {
     font-size: 16px;
     line-height: 24px;
     color: #283136;
+}
+
+.info-list li {
+    padding-bottom: 35px;
 }
 
 .info-order {
