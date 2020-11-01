@@ -589,13 +589,13 @@ img {
 }
 
 .footer-inner {
-    text-align: center;
     position: absolute;
     left: 50%;
     margin-left: -580px;
     top: 54px;
-    width: 319px;
     background-color: var(--basic-white);
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 49px;
     padding-bottom: 62px;
 }
